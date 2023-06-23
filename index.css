@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+.container {
+    background-color: rgb(29, 216, 216);
+    max-width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 490px;
+    /* padding-top: 17px; */
+}
+
+h1 {
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+#number-el {
+    font-size: 190px;
+}
+
+p {
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(29, 216, 216);
+    border-radius: 20px;
+    font-size: 40px;
+    margin: 10px;
+    width: 215px;
+}
