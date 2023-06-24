@@ -13,8 +13,15 @@ function decrease() {
 }
 
 function save() {
-     
-    peopleEl.textContent += "  " +  count + " - "
+    peopleEl.textContent += " " + count + " - " 
     numberEl.textContent = 0
     count = 0
+}
+
+
+function reset() {
+    peopleEl.textContent = "Number of people per hour:"
+    numberEl.textContent = 0
+    count = 0
+    
 }
